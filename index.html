@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/guess.css">
+    <title>Guess game</title>
+</head>
+<body>
+    
+   <div class="intro">
+    <h2>Hi Buddy, Welcome to my Guessing Game</h2>
+    <h3>INTRODUCTION</h3>
+    <p>This is a simple guessing game that rewards you with points which converts to real currency that is withdrawable</p>
+    <p>How is it done? <br>
+    you simply guess the number chosen by the computer ranging from number 1 to 5, and if you guess correctly, you will be rewarded instantly</p>
+    <p>Upon getting rewarded, you will be eligble to withdraw your money into your bank account once your earnings accumulates upto $50 minimum</p>
+    <p>Are you Ready to play? First REGISTER HERE, then click the start button below to take you to the gaming page. Good luck</p>
+
+
+    <div class="introForm">
+        <input type="text" class="userName" placeholder="Enter Your Name here">
+        <button type="submit" id="register" >Register</button>
+    </div>
+   </div>
+
+
+   <div id="mainGame" style="display: none;">
+    
+    
+    <div class="topField">
+        <div class="left">
+            <div class="welcome"></div>
+         <h1>Number Guessing Game</h1>
+         <p>We have selected a random numbers between 1 and 5. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low. Check your Score section to see Your earnings!</p>
+        </div>
+        <div class="right" style="background-image: url(/images/iykebg.png);">
+         <h2>Earnings:</h2>
+         <div class="amountEarned"></div>
+         <button class="withdraw">Widthdraw</button>
+        </div>
+     </div>
+ 
+     <div class="form_container">
+         <label for="guessField">Enter a guess No: </label>
+         <input type="number" min="1" max="50" required id="guessField" class="guessField">
+         <input type="submit" value="Submit Guess" class="guessSubmit">
+     </div>
+ 
+     <div class="resultParas">
+         <p class="guesses"></p>
+         <p class="prevResult"></p>
+         <p class="lowOrHigh"></p>
+     </div>
+   </div>
+
+
+
+
+    <script src="/scripts/guess.js"></script>
+</body>
+</html>

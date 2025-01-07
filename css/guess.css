@@ -1,0 +1,120 @@
+html{
+    font-family: sans-serif;
+}
+
+body{
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: auto;
+    background-image: url(/images/guessbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    /* background-color: rgb(4, 134, 143); */
+}
+.intro{
+    /* background-color:  rgba(255, 255, 255, 0.7);
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-opaque dark background */
+    color: white; /* High contrast text color */
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+    border-radius: 10px; /* Optional for rounded edges */
+    
+    padding: 20px;
+}
+.introForm{
+    width: 40%;
+    margin: 10px auto;
+    
+}
+.register{
+    background-color: green;
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.topField{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.185);
+    background-color: silver;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 3px 0px ;
+    border-radius: 5px;
+}
+.left{
+    width: 70%;
+}
+.right{
+    background-color: slategrey;
+    padding: 0 20px;
+    width: 25%;
+    box-shadow: 1px;
+}
+
+.amountEarned{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.withdraw{
+    padding: 6px;
+    background-color: green;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.guessSubmit{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.form_container input[type="number"]{
+    width: 200px;
+}
+input{
+    padding: 5px;
+}
+label{
+    margin-left: 20%;
+}
+
+.resultParas{
+    width: 60%;
+    margin: 5px auto;
+}
+p{
+    text-align: center;
+}
+
+.prevResult{
+    color: white;
+    padding: 3px;
+}
+
+.resetbtn{
+    color: white;
+    background-color: green;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 10 10px;
+    margin-left: 45%;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px 0px ;
+    font-size: 18px;
+}
