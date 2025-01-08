@@ -56,7 +56,7 @@ function checkGuess() {
         reward.textContent = `$${earnings}`;
 
         gameOver();
-    }else if(guessCount === 10){
+    }else if(guessCount === 3){
         prevResult.textContent = "GAME OVER";
         lowOrHigh.textContent = "";
         gameOver();
